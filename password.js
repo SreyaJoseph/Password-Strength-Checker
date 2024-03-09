@@ -15,20 +15,33 @@ function checkPassword() {
     var progress = document.getElementById("progress");
 
     switch (strength) {
-        case "Weak":
-            progress.style.width = "20%";
-            break;
+       
         case "Moderate":
             progress.style.width = "50%";
+            document.getElementById("result").innerHTML = "Password Strength: " + strength;
+
             break;
         case "Strong":
             progress.style.width = "75%";
+            document.getElementById("result").innerHTML = "Password Strength: " + strength;
+
             break;
         case "Very Strong":
             progress.style.width = "100%";
+            document.getElementById("result").innerHTML = "Password Strength: " + strength;
+
             break;
+        case "Weak":
+                progress.style.width = "20%";
+                document.getElementById("result").innerHTML = "Password Strength: " + strength;
+                document.getElementById("myLink").addEventListener("click", function() {
+                
+                });
+                
+                break;
         default:
             progress.style.width = "0%";
     }
-    document.getElementById("result").innerHTML = "Password Strength: " + strength;
+   
+   
 }
