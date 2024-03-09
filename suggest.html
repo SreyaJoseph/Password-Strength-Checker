@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Suggestion Tool</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="suggest.css">
+    <link rel="stylesheet" href="generate.css">
 </head>
 <body>
     <div class="container1">
         <h1>Password Suggestion Tool</h1>
         <p>Answer a few questions about your preferences and we'll generate a password suggestion for you.</p>
-        <input type="text" id="likes" placeholder="What are some things you like?">
-        <input type="text" id="hobbies" placeholder="What are your hobbies?">
+        
+        <input type="text" id="food" placeholder="What is your favorite food?">
         <input type="text" id="favColor" placeholder="What is your favorite color?">
-        <input type="text" id="favNumber" placeholder="What is your favorite number?">
+        <input type="text" id="favNumber" placeholder="What is your lucky number?">
         <button onclick="generatePassword()">Generate Password</button>
         <p id="password"></p>
     </div>
 
-    <script src="script.js"></script>
+    <script src="suggest.js"></script>
+    <script src="generate.js"></script>
 </body>
 </html>
