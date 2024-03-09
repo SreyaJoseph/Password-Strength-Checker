@@ -9,15 +9,21 @@
 </head>
 <body>
     <div class="container">
-        <div>
+    <div>
         <h2>Password  Strength  Checker
             <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-        </h2></div>
+        </h2>
+       
+    </div>
+    
         <label for="password">Enter your password:</label>
         <input type="password" id="password" name="password" placeholder="Password">
         <button onclick="checkPassword()">Check Password</button>
         <div id="result"></div>
-    </div>
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+    
     <script src="password.js"></script>
 </body>
 </html>

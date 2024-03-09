@@ -12,6 +12,23 @@ function checkPassword() {
     } else {
         strength = "Weak";
     }
+    var progress = document.getElementById("progress");
 
+    switch (strength) {
+        case "Weak":
+            progress.style.width = "20%";
+            break;
+        case "Moderate":
+            progress.style.width = "50%";
+            break;
+        case "Strong":
+            progress.style.width = "75%";
+            break;
+        case "Very Strong":
+            progress.style.width = "100%";
+            break;
+        default:
+            progress.style.width = "0%";
+    }
     document.getElementById("result").innerHTML = "Password Strength: " + strength;
 }
