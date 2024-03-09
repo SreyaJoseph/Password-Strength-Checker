@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Suggestion Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container1">
+        <h1>Password Suggestion Tool</h1>
+        <p>Answer a few questions about your preferences and we'll generate a password suggestion for you.</p>
+        <input type="text" id="likes" placeholder="What are some things you like?">
+        <input type="text" id="hobbies" placeholder="What are your hobbies?">
+        <input type="text" id="favColor" placeholder="What is your favorite color?">
+        <input type="text" id="favNumber" placeholder="What is your favorite number?">
+        <button onclick="generatePassword()">Generate Password</button>
+        <p id="password"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
