@@ -7,15 +7,17 @@ The Pass-Strong project analyses user-entered passwords and suggests strong mean
 
 # TECHNOLOGIES USED
 
-    HTML
-    CSS
-    Javascript
+HTML
+
+CSS
+
+Javascript
 
 
 # FEATURES
 
-    Password Input: Users can input their desired password into the tool.
-    Strength Assessment: The tool analyzes the password based on length, complexity, and common patterns.
-    Password Suggestions: Suggests strong passwords by taking user favorites as inputs and adding special characters to it automatically.
-    Security Checking: In case of forgetting the password, it once again asks the same inputs that they have given earlier and compares them with the new inputs to ensure security.
+Password Input: Users can input their desired password into the tool.
+Strength Assessment: The tool analyzes the password based on length, complexity, and common patterns.
+Password Suggestions: Suggests strong passwords by taking user favorites as inputs and adding special characters to it automatically.
+Security Checking: In case of forgetting the password, it once again asks the same inputs that they have given earlier and compares them with the new inputs to ensure security.
 
